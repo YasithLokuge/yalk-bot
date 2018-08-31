@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm install -g serverless
+  post_build:
+    commands:
+      - cd yalk-bot-lex-validation
+      - serverless deploy --region us-east-1 --verbose
+      - cd ..
+      - cd yalk-bot-alexa-skill
+      - npm install alexa-sdk --save
+      - npm install serverless-plugin-include-dependencies --save-dev
+      - serverless deploy --region us-east-1 --verbose
