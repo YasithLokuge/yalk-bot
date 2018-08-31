@@ -18,3 +18,4 @@ There are three ways to communicate with **Yalk**. One is through our [website](
 
 Furthermore, we are planning to remove Facebook messenger integration from our website to provide more anonymous user experience in future. Our vision is to provide more accurate mentoring and guidance to minimize suicide attempts in people with mental health issues.
 
+Project [Yalk](https://yalk.io) is a non-profit organization made for humans with ❤️
