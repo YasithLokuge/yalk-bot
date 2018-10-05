@@ -19,7 +19,7 @@ service: yalk-bot-alexa-skill # NOTE: update this with your service name
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs8.10
   region: us-east-1
   role: arn:aws:iam::649854575814:role/yalk-bot-lambda-role
 # you can overwrite defaults here

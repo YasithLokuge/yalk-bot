@@ -10,6 +10,8 @@ phases:
       - serverless deploy --region us-east-1 --verbose
       - cd ..
       - cd yalk-bot-alexa-skill
+      - npm install async --save
       - npm install alexa-sdk --save
+      - npm install mysql --save
       - npm install serverless-plugin-include-dependencies --save-dev
       - serverless deploy --region us-east-1 --verbose
